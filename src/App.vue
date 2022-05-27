@@ -1,27 +1,35 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <router-link to="/">Home</router-link>
+  <router-link to="/Login">Login</router-link>
+  <router-link to="/Register">Register</router-link>
+  <router-link to="/Search">Search</router-link>
+  <hr />
+  <Header></Header>
+  <router-view></router-view>
+  <Footer v-if="meta.showFooter"></Footer>
 </template>
-
 <script lang="ts">
-import { defineComponent } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
-
+import { defineComponent, toRefs, onMounted } from "vue";
+import { Header, Footer } from "./components";
+import { useRoute } from "vue-router";
+import { useStore } from './store'
 export default defineComponent({
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
+    Header,
+    Footer,
+  },
+  setup() {
+    const route = useRoute();
+    const { dispatch } = useStore();
+    onMounted(() => {
+      dispatch("getThemHome");
+    });
+    return {
+      ...toRefs(route),
+    };
+  },
 });
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style lang="less" scoped></style>

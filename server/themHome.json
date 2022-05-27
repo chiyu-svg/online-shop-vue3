@@ -1,0 +1,123 @@
+[{
+        "id": "1",
+        "name": "居家生活",
+        "childThem": [{
+                "id": "1-1",
+                "name": "五金/工具",
+                "sonThem": [{
+                        "id": "1-1-1",
+                        "name": "机械五金",
+                        "link": "https://s.taobao.com/search?spm=a2141.241046-hk.lead_cate3.d1_Tools.41ca6f11VcEzLQ&q=%E6%9C%BA%E6%A2%B0%E4%BA%94%E9%87%91&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20210402&ie=utf8"
+                    },
+                    {
+                        "id": "1-1-2",
+                        "name": "仪器仪表",
+                        "link": "https://s.taobao.com/search?spm=a2141.241046-hk.lead_cate3.d1_Tools.41ca6f11VcEzLQ&q=%E6%9C%BA%E6%A2%B0%E4%BA%94%E9%87%91&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20210402&ie=utf8"
+                    }, {
+                        "id": "1-1-3",
+                        "name": "手动工具",
+                        "link": "https://s.taobao.com/search?spm=a2141.241046-hk.lead_cate3.d1_Tools.41ca6f11VcEzLQ&q=%E6%9C%BA%E6%A2%B0%E4%BA%94%E9%87%91&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20210402&ie=utf8"
+                    },
+                    {
+                        "id": "1-1-4",
+                        "name": "机电五金",
+                        "link": "https://s.taobao.com/search?spm=a2141.241046-hk.lead_cate3.d1_Tools.41ca6f11VcEzLQ&q=%E6%9C%BA%E6%A2%B0%E4%BA%94%E9%87%91&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20210402&ie=utf8"
+                    }, {
+                        "id": "1-1-5",
+                        "name": "电动工具",
+                        "link": "https://s.taobao.com/search?spm=a2141.241046-hk.lead_cate3.d1_Tools.41ca6f11VcEzLQ&q=%E6%9C%BA%E6%A2%B0%E4%BA%94%E9%87%91&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20210402&ie=utf8"
+                    }
+                ]
+            },
+            {
+                "id": "1-2",
+                "name": "住宅家具",
+                "sonThem": [{
+                        "id": "1-2-1",
+                        "name": "机械五金",
+                        "link": "https://s.taobao.com/search?spm=a2141.241046-hk.lead_cate3.d1_Tools.41ca6f11VcEzLQ&q=%E6%9C%BA%E6%A2%B0%E4%BA%94%E9%87%91&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20210402&ie=utf8"
+                    },
+                    {
+                        "id": "1-2-2",
+                        "name": "仪器仪表",
+                        "link": "https://s.taobao.com/search?spm=a2141.241046-hk.lead_cate3.d1_Tools.41ca6f11VcEzLQ&q=%E6%9C%BA%E6%A2%B0%E4%BA%94%E9%87%91&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20210402&ie=utf8"
+                    }, {
+                        "id": "1-2-3",
+                        "name": "手动工具",
+                        "link": "https://s.taobao.com/search?spm=a2141.241046-hk.lead_cate3.d1_Tools.41ca6f11VcEzLQ&q=%E6%9C%BA%E6%A2%B0%E4%BA%94%E9%87%91&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20210402&ie=utf8"
+                    },
+                    {
+                        "id": "1-2-4",
+                        "name": "机电五金",
+                        "link": "https://s.taobao.com/search?spm=a2141.241046-hk.lead_cate3.d1_Tools.41ca6f11VcEzLQ&q=%E6%9C%BA%E6%A2%B0%E4%BA%94%E9%87%91&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20210402&ie=utf8"
+                    }, {
+                        "id": "1-2-5",
+                        "name": "电动工具",
+                        "link": "https://s.taobao.com/search?spm=a2141.241046-hk.lead_cate3.d1_Tools.41ca6f11VcEzLQ&q=%E6%9C%BA%E6%A2%B0%E4%BA%94%E9%87%91&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20210402&ie=utf8"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "箱包/配饰",
+        "childThem": [{
+                "id": "2-1",
+                "name": "热销女包/男包",
+                "sonThem": [{
+                        "id": "2-1-1",
+                        "name": "女士包袋",
+                        "link": "https://s.taobao.com/search?spm=a2141.241046-hk.lead_cate3.d1_Tools.41ca6f11VcEzLQ&q=%E6%9C%BA%E6%A2%B0%E4%BA%94%E9%87%91&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20210402&ie=utf8"
+                    },
+                    {
+                        "id": "2-1-2",
+                        "name": "双肩背包",
+                        "link": "https://s.taobao.com/search?spm=a2141.241046-hk.lead_cate3.d1_Tools.41ca6f11VcEzLQ&q=%E6%9C%BA%E6%A2%B0%E4%BA%94%E9%87%91&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20210402&ie=utf8"
+                    }, {
+                        "id": "2-1-3",
+                        "name": "男士包袋",
+                        "link": "https://s.taobao.com/search?spm=a2141.241046-hk.lead_cate3.d1_Tools.41ca6f11VcEzLQ&q=%E6%9C%BA%E6%A2%B0%E4%BA%94%E9%87%91&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20210402&ie=utf8"
+                    },
+                    {
+                        "id": "2-1-4",
+                        "name": "钱包",
+                        "link": "https://s.taobao.com/search?spm=a2141.241046-hk.lead_cate3.d1_Tools.41ca6f11VcEzLQ&q=%E6%9C%BA%E6%A2%B0%E4%BA%94%E9%87%91&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20210402&ie=utf8"
+                    }, {
+                        "id": "2-1-5",
+                        "name": "旅行箱",
+                        "link": "https://s.taobao.com/search?spm=a2141.241046-hk.lead_cate3.d1_Tools.41ca6f11VcEzLQ&q=%E6%9C%BA%E6%A2%B0%E4%BA%94%E9%87%91&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20210402&ie=utf8"
+                    }
+                ]
+            },
+            {
+                "id": "2-2",
+                "name": "瑞士军刀/眼镜",
+                "sonThem": [{
+                        "id": "2-2-1",
+                        "name": "光学眼镜",
+                        "link": "https://s.taobao.com/search?spm=a2141.241046-hk.lead_cate3.d1_Tools.41ca6f11VcEzLQ&q=%E6%9C%BA%E6%A2%B0%E4%BA%94%E9%87%91&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20210402&ie=utf8"
+                    },
+                    {
+                        "id": "2-2-2",
+                        "name": "太阳眼镜",
+                        "link": "https://s.taobao.com/search?spm=a2141.241046-hk.lead_cate3.d1_Tools.41ca6f11VcEzLQ&q=%E6%9C%BA%E6%A2%B0%E4%BA%94%E9%87%91&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20210402&ie=utf8"
+                    }, {
+                        "id": "2-2-3",
+                        "name": "烟具",
+                        "link": "https://s.taobao.com/search?spm=a2141.241046-hk.lead_cate3.d1_Tools.41ca6f11VcEzLQ&q=%E6%9C%BA%E6%A2%B0%E4%BA%94%E9%87%91&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20210402&ie=utf8"
+                    },
+                    {
+                        "id": "2-2-4",
+                        "name": "眼镜配件、护理剂",
+                        "link": "https://s.taobao.com/search?spm=a2141.241046-hk.lead_cate3.d1_Tools.41ca6f11VcEzLQ&q=%E6%9C%BA%E6%A2%B0%E4%BA%94%E9%87%91&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20210402&ie=utf8"
+                    }, {
+                        "id": "2-2-5",
+                        "name": "品牌打火机及配件",
+                        "link": "https://s.taobao.com/search?spm=a2141.241046-hk.lead_cate3.d1_Tools.41ca6f11VcEzLQ&q=%E6%9C%BA%E6%A2%B0%E4%BA%94%E9%87%91&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20210402&ie=utf8"
+                    }
+                ]
+            }
+        ]
+    }
+]

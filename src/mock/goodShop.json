@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "path": "/images/goodShops/goodshop1.jpg",
+        "description": "S J Co 儿童纯棉中筒袜子"
+    },
+    {
+        "id": 2,
+        "path": "/images/goodShops/goodshop2.jpg",
+        "description": "佰俪菲尔 学院风套装jk制服"
+    },
+    {
+        "id": 3,
+        "path": "/images/goodShops/goodshop3.jpg",
+        "description": "川黛时光 女童双色印花旗袍"
+    },
+    {
+        "id": 4,
+        "path": "/images/goodShops/goodshop4.jpg",
+        "description": "娇兰瑰丽女王宝石口红钻石"
+    },
+    {
+        "id": 5,
+        "path": "/images/goodShops/goodshop5.jpg",
+        "description": "深圳儿童纯棉长筒袜子"
+    }
+]
