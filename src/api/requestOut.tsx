@@ -20,11 +20,16 @@
  })
  
  // 配置响应拦截器
- requestsOut.interceptors.response.use(res => {
+ requestsOut.interceptors.response.use((res: any) => {
      Nprogress.done();
-     return res.data.data;    
+     if(res.data.code === 200){
+         return res.data;    
+     }else{
+        alert('请求数据异常');
+        return null;
+     }
  }, error => {
-     return Promise.reject(new Error(error))
+     return Promise.reject(error)
  });
  
  export default requestsOut;

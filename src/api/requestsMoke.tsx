@@ -24,7 +24,7 @@
      Nprogress.done();
      return res.data.data;    
  }, error => {
-     return Promise.reject(new Error(error))
+     return Promise.reject(error)
  });
  
  export default requestsMock;

@@ -7,11 +7,12 @@
       id="search"
       v-model.trim="searchKey"
       @keyup.enter="startSearch"
+      ref="refInput"
     />
   </div>
 </template>
 <script lang="ts">
-import { defineComponent, ref } from "vue";
+import { defineComponent, ref, onMounted, inject} from "vue";
 import { useRouter, useRoute } from "vue-router";
 export default defineComponent({
   name: "HeaderComponent",
@@ -19,6 +20,8 @@ export default defineComponent({
     const router = useRouter();
     const route = useRoute();
     const searchKey = ref<string>("");
+    const refInput = ref<any>();
+    const appState: any = inject('appState');
     const startSearch = (): void => {
       // if(searchKey.value){
       router.push({
@@ -30,9 +33,17 @@ export default defineComponent({
       });
       // }
     };
+    const clearInput = () => {
+      searchKey.value = '';
+    }
+    onMounted(() => {
+      refInput.value?.focus();
+      appState.clearInput = clearInput;
+    })
     return {
       searchKey,
       startSearch,
+      refInput
     };
   },
 });

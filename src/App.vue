@@ -9,7 +9,7 @@
   <Footer v-if="meta.showFooter"></Footer>
 </template>
 <script lang="ts">
-import { defineComponent, toRefs, onMounted } from "vue";
+import { defineComponent, toRefs, onMounted, provide, onBeforeMount } from "vue";
 import { Header, Footer } from "./components";
 import { useRoute } from "vue-router";
 import { useStore } from './store'
@@ -22,6 +22,9 @@ export default defineComponent({
   setup() {
     const route = useRoute();
     const { dispatch } = useStore();
+    onBeforeMount(() => {
+      provide("appState", {});
+    })
     onMounted(() => {
       dispatch("getThemHome");
     });
@@ -32,4 +35,5 @@ export default defineComponent({
 });
 </script>
 
-<style lang="less" scoped></style>
+<style lang="less" scoped>
+</style>
